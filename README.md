@@ -6,10 +6,15 @@ Mediante la DLL datosSunat que contiene los siguientes metodos:
 ObtenerDatosSunat(): Permite conectarce a la web de la sunat y sacar el codigo en html en texto plano y eliminar los saltos de linea y dejar unicamente un espacio.
 
   obtenerRAZONSOCIAL(): Permite extraer RAZONSOCIAL como string.
+  
   obtenerDOMICILIOFISCAL(): Permite extraer DOMICILIOFISCA como string.
+  
   obtenerNOMBRECOMERCIAL(): Permite extraer NOMBRECOMERCIAL como string.
+  
   obtenerTIPOCONTRIBUYENTE(): Permite extraer la razon social como string.
+  
   obtenerESTADO(): Permite extraer la ESTADO como string.
+  
   obtenerCONDICION(): Permite extraer la CONDICION como string.
 
 La DLL se puede editar para extraer mas datos.
