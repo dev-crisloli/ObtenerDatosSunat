@@ -46,6 +46,7 @@ namespace Ejemplo
             this.txt_RUC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.txt_visor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txt_nombreComercial
@@ -193,11 +194,21 @@ namespace Ejemplo
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txt_visor
+            // 
+            this.txt_visor.Location = new System.Drawing.Point(695, 67);
+            this.txt_visor.Multiline = true;
+            this.txt_visor.Name = "txt_visor";
+            this.txt_visor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_visor.Size = new System.Drawing.Size(591, 363);
+            this.txt_visor.TabIndex = 37;
+            // 
             // FormSunat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 512);
+            this.ClientSize = new System.Drawing.Size(1328, 512);
+            this.Controls.Add(this.txt_visor);
             this.Controls.Add(this.txt_nombreComercial);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txt_condicion);
@@ -241,5 +252,6 @@ namespace Ejemplo
         private System.Windows.Forms.TextBox txt_RUC;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_visor;
     }
 }

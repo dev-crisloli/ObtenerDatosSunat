@@ -45,7 +45,15 @@ namespace datosSunat
             {
                 string formatearDatos = Regex.Replace(datosSunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", ""), " {2,}", " ");
                 int first = formatearDatos.IndexOf("Nombre Comercial: </td> <td class=\"bg\" colspan=1>") + "Nombre Comercial: </td> <td class=\"bg\" colspan=1>".Length;
-                int last = formatearDatos.IndexOf("</td> <td class=\"bgn\" colspan=1 >Afecto al Nuevo RUS: </td> <td class=\"bg\" colspan=1>") - first;
+                int last = formatearDatos.IndexOf("</td> <td class=\"bgn\" colspan=1 >Afecto al Nuevo RUS: </td> <td class=\"bg\" colspan=1>");
+                if(last <= 0)
+                {
+                    last = formatearDatos.IndexOf("</td> </tr> <tr> <td class=\"bgn\" colspan=1>Fecha de Inscripci&oacute;n:") - first;
+                }
+                else
+                {
+                    last = formatearDatos.IndexOf("</td> <td class=\"bgn\" colspan=1 >Afecto al Nuevo RUS: </td> <td class=\"bg\" colspan=1>") - first;
+                }
                 return formatearDatos.Substring(first, last);
             }
             catch
@@ -60,7 +68,19 @@ namespace datosSunat
             {
                 string formatearDatos = Regex.Replace(datosSunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", ""), " {2,}", " ");
                 int first = formatearDatos.IndexOf("Tipo Contribuyente: </td> <td class=\"bg\" colspan=3>") + "Tipo Contribuyente: </td> <td class=\"bg\" colspan=3>".Length;
-                int last = formatearDatos.IndexOf("</td> </tr> <tr> <td class=\"bgn\" colspan=1 >Nombre Comercial:") - first;
+
+
+                int last = formatearDatos.IndexOf("</td> </tr> <tr> <td class=\"bgn\" colspan=1>Tipo de Documento: </td> <td class=\"bg\" colspan=3>DNI");
+
+                if (last <= 0) {
+                    last = formatearDatos.IndexOf("</td> </tr> <tr> <td class=\"bgn\" colspan=1 >Nombre Comercial:") - first;
+                }
+                else
+                {
+                    last = formatearDatos.IndexOf("</td> </tr> <tr> <td class=\"bgn\" colspan=1>Tipo de Documento: </td> <td class=\"bg\" colspan=3>DNI") - first;
+                }
+
+                
                 return formatearDatos.Substring(first, last);
             }
             catch
@@ -76,6 +96,14 @@ namespace datosSunat
                 string formatearDatos = Regex.Replace(datosSunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", ""), " {2,}", " ");
                 int first = formatearDatos.IndexOf("Estado: </td> <td class=\"bg\" colspan=1>") + "Estado: </td> <td class=\"bg\" colspan=1>".Length;
                 int last = formatearDatos.IndexOf("</td> <td class=\"bgn\" colspan=1> </td> </tr> <tr> <td class=\"bgn\"colspan=1>Condici&oacute;n:</td>") - first;
+
+                if (last <= 0)
+                {
+                    first = formatearDatos.IndexOf("Estado: </td> <td class=\"bg\" colspan=1>") + "Estado: </td> <td class=\"bg\" colspan=1>".Length;
+                    last = formatearDatos.IndexOf("</td> <td class=\"bgn\" colspan=1> Fecha de Baja: ") - first;
+                }
+
+                
                 return formatearDatos.Substring(first, last);
             }
             catch

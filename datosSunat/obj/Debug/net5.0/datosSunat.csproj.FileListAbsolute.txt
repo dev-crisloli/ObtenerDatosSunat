@@ -9,3 +9,4 @@ C:\Users\cris_\source\repos\GetSunat\datosSunat\obj\Debug\net5.0\datosSunat.cspr
 C:\Users\cris_\source\repos\GetSunat\datosSunat\obj\Debug\net5.0\datosSunat.dll
 C:\Users\cris_\source\repos\GetSunat\datosSunat\obj\Debug\net5.0\ref\datosSunat.dll
 C:\Users\cris_\source\repos\GetSunat\datosSunat\obj\Debug\net5.0\datosSunat.pdb
+C:\Users\cris_\source\repos\GetSunat\datosSunat\obj\Debug\net5.0\datosSunat.csprojAssemblyReference.cache
