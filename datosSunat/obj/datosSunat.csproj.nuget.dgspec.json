@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj": {}
+    "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj": {
+    "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj",
+        "projectUniqueName": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj",
         "projectName": "datosSunat",
-        "projectPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj",
+        "projectPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj",
         "packagesPath": "C:\\Users\\cris_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\obj\\",
+        "outputPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

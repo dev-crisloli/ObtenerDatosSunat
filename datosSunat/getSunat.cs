@@ -127,12 +127,27 @@ namespace datosSunat
             }
 
         }
+
+
+        public int obtenerCodigoRandom(string datosSunat)
+        {
+            string formatearDatos = Regex.Replace(datosSunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\t", ""), " {2,}", " ");
+            int first = formatearDatos.IndexOf("<input type=\"hidden\" name=\"numRnd\" value=\"") + "<input type=\"hidden\" name=\"numRnd\" value=\"".Length;
+            int last = formatearDatos.IndexOf("\"><input type=\"hidden\" name=\"modo\" value=\"1\">") - first;
+            string retorno = formatearDatos.Substring(first, last);
+            return int.Parse(retorno);
+        }
+
         public async Task<string> ObtenerDatosSunat(string numeroRUC)
         {
             using var client = new HttpClient();
             int codigoRandom = 0;
-            codigoRandom = int.Parse(await client.GetStringAsync("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/captcha?accion=random"));
-            return await client.GetStringAsync("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRuc&nroRuc=" + numeroRUC + "&numRnd=" + codigoRandom);
+            //codigoRandom = int.Parse(await client.GetStringAsync("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/captcha?accion=random"));
+
+            string codigoRandomHTML = await client.GetStringAsync("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRazonSoc&razSoc=");
+            codigoRandom = obtenerCodigoRandom(codigoRandomHTML);
+            string retorno = await client.GetStringAsync("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias?accion=consPorRuc&nroRuc=" + numeroRUC + "&numRnd=" + codigoRandom);
+            return retorno;
         }
     }
 }

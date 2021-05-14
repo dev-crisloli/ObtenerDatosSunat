@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cris_\\source\\repos\\GetSunat\\Ejemplo\\Ejemplo.csproj": {}
+    "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\Ejemplo\\Ejemplo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj": {
+    "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj",
+        "projectUniqueName": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj",
         "projectName": "datosSunat",
-        "projectPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj",
+        "projectPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj",
         "packagesPath": "C:\\Users\\cris_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\obj\\",
+        "outputPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\cris_\\source\\repos\\GetSunat\\Ejemplo\\Ejemplo.csproj": {
+    "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\Ejemplo\\Ejemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cris_\\source\\repos\\GetSunat\\Ejemplo\\Ejemplo.csproj",
+        "projectUniqueName": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\Ejemplo\\Ejemplo.csproj",
         "projectName": "Ejemplo",
-        "projectPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\Ejemplo\\Ejemplo.csproj",
+        "projectPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\Ejemplo\\Ejemplo.csproj",
         "packagesPath": "C:\\Users\\cris_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\Ejemplo\\obj\\",
+        "outputPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\Ejemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -92,8 +92,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj": {
-                "projectPath": "C:\\Users\\cris_\\source\\repos\\GetSunat\\datosSunat\\datosSunat.csproj"
+              "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj": {
+                "projectPath": "C:\\Users\\cris_\\Documents\\GitHub\\ObtenerDatosSunat\\datosSunat\\datosSunat.csproj"
               }
             }
           }
