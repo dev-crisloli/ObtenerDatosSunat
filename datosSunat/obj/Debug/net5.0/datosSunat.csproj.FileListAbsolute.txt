@@ -21,3 +21,4 @@ C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\datosSunat\obj\Debug\net5.0\da
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\datosSunat\obj\Debug\net5.0\datosSunat.dll
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\datosSunat\obj\Debug\net5.0\ref\datosSunat.dll
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\datosSunat\obj\Debug\net5.0\datosSunat.pdb
+C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\datosSunat\obj\Debug\net5.0\datosSunat.csproj.AssemblyReference.cache

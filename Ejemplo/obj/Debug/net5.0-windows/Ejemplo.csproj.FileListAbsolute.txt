@@ -28,15 +28,15 @@ C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\bin\Debug\net5.0-windo
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\bin\Debug\net5.0-windows\Ejemplo.pdb
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\bin\Debug\net5.0-windows\datosSunat.dll
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\bin\Debug\net5.0-windows\datosSunat.pdb
-C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csprojAssemblyReference.cache
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.FormSunat.resources
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csproj.GenerateResource.cache
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.AssemblyInfoInputs.cache
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.AssemblyInfo.cs
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csproj.CoreCompileInputs.cache
-C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csproj.CopyComplete
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.dll
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\ref\Ejemplo.dll
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.pdb
 C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.genruntimeconfig.cache
+C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csproj.AssemblyReference.cache
+C:\Users\cris_\Documents\GitHub\ObtenerDatosSunat\Ejemplo\obj\Debug\net5.0-windows\Ejemplo.csproj.CopyComplete

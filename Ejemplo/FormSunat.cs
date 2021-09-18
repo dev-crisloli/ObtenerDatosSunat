@@ -21,15 +21,24 @@ namespace Ejemplo
         private async void button1_Click(object sender, EventArgs e)
         {
             datosSunat.getSunat getSunat = new datosSunat.getSunat();
-            string Sunat = await getSunat.ObtenerDatosSunat(txt_buscarRUC.Text);
-            txt_visor.Text = Regex.Replace(Sunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", ""), " {2,}", " ");
-            txt_RUC.Text = getSunat.obtenerRUC(Sunat);
-            txt_razonSocial.Text = getSunat.obtenerRAZONSOCIAL(Sunat);
-            txt_domicilioFiscal.Text = getSunat.obtenerDOMICILIOFISCAL(Sunat);
-            txt_nombreComercial.Text = getSunat.obtenerNOMBRECOMERCIAL(Sunat);
-            txt_tipoDeContribuyente.Text = getSunat.obtenerTIPOCONTRIBUYENTE(Sunat);
-            txt_estado.Text = getSunat.obtenerESTADO(Sunat);
-            txt_condicion.Text = getSunat.obtenerCONDICION(Sunat);
+            getSunat.NumeroRUC = txt_buscarRUC.Text;
+            string errorMensaje = getSunat.ObtenerDatosSunat();
+            if (errorMensaje == "ok") { ;
+                string Sunat = getSunat.DatosSunat;
+                txt_visor.Text = Regex.Replace(Sunat.Replace("\r\n", "").Replace("\n", "").Replace("\r", ""), " {2,}", " ");
+                txt_RUC.Text = getSunat.NumeroRUC;
+                txt_razonSocial.Text = "";
+                txt_domicilioFiscal.Text = getSunat.DomicilioFiscal;
+                txt_nombreComercial.Text = getSunat.NombreComercial;
+                txt_tipoDeContribuyente.Text = getSunat.TipoDeContribuyente;
+                txt_estado.Text = getSunat.EstadoDeContribuyente;
+                txt_condicion.Text = getSunat.CondicionDeContribuyente;
+                txt_razonSocial.Text = getSunat.RazonSocial;
+            }
+            else
+            {
+                MessageBox.Show(errorMensaje);
+            }
         }
     }
 }
